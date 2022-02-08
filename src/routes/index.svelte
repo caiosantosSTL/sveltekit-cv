@@ -1,5 +1,8 @@
 <script>
     import Navbar from '../navbar.svelte'
+    import Footer from '../footer.svelte'
+    //comp
+    import Card from '../component/mycard.svelte'
     
 </script>
 
@@ -136,133 +139,21 @@
                 <p class="text-2xl flex justify-center mb-4">Skills</p>
                 <div class="flex justify-around flex-wrap gap-2">
 
-
-                    <div class="flex flex-col p-2  w-52 card border-black border-2">
-                        <div class="flex justify-center">
-                            <img src="../img/sf.png" class="w-40 rounded-2xl" alt="">
-                        </div>
-                        <div class="flex justify-center">Symfony</div>
-                        <div>
-                            <p class="text-center flex flex-wrap p-2">Lorem ipsum, dolor sit amet consectetur adipisicing
-                                elit.
-                            </p>
-                        </div>
-
-                    </div>
-
-                    <div class="flex flex-col p-2  w-52 card border-black border-2">
-                        <div class="flex justify-center">
-                            <img src="../img/node.png" class="w-40 rounded-2xl" alt="">
-                        </div>
-                        <div class="flex justify-center">Node Js</div>
-                        <div>
-                            <p class="text-center flex flex-wrap p-2">Lorem ipsum, dolor sit amet consectetur adipisicing
-                                elit.
-                            </p>
-                        </div>
-
-                    </div>
-
-                    <div class="flex flex-col p-2  w-52 card border-black border-2">
-                        <div class="flex justify-center">
-                            <img src="../img/flask.png" class="w-40 rounded-2xl" alt="">
-                        </div>
-                        <div class="flex justify-center">Flask</div>
-                        <div>
-                            <p class="text-center flex flex-wrap p-2">Lorem ipsum, dolor sit amet consectetur adipisicing
-                                elit.
-                            </p>
-                        </div>
-
-                    </div>
-
-                    <div class="flex flex-col p-2  w-52 card border-black border-2">
-                        <div class="flex justify-center">
-                            <img src="../img/django.png" class="w-40 rounded-2xl" alt="">
-                        </div>
-                        <div class="flex justify-center">Django</div>
-                        <div>
-                            <p class="text-center flex flex-wrap p-2">Lorem ipsum, dolor sit amet consectetur adipisicing
-                                elit.
-                            </p>
-                        </div>
-
-                    </div>
-
-                    <div class="flex flex-col p-2  w-52 card border-black border-2">
-                        <div class="flex justify-center">
-                            <img src="../img/laravel.png" class="w-40 rounded-2xl" alt="">
-                        </div>
-                        <div class="flex justify-center">Laravel</div>
-                        <div>
-                            <p class="text-center flex flex-wrap p-2">Lorem ipsum, dolor sit amet consectetur adipisicing
-                                elit.
-                            </p>
-                        </div>
-
-                    </div>
-
-                    <div class="flex flex-col p-2  w-52 card border-black border-2">
-                        <div class="flex justify-center">
-                            <img src="../img/godot.png" class="w-40 rounded-2xl" alt="">
-                        </div>
-                        <div class="flex justify-center">Godot</div>
-                        <div>
-                            <p class="text-center flex flex-wrap p-2">Lorem ipsum, dolor sit amet consectetur adipisicing
-                                elit.
-                            </p>
-                        </div>
-
-                    </div>
-
-                    <div class="flex flex-col p-2  w-52 card border-black border-2">
-                        <div class="flex justify-center">
-                            <img src="../img/unity.png" class="w-40 rounded-2xl" alt="">
-                        </div>
-                        <div class="flex justify-center">Unity</div>
-                        <div>
-                            <p class="text-center flex flex-wrap p-2">Lorem ipsum, dolor sit amet consectetur adipisicing
-                                elit.
-                            </p>
-                        </div>
-
-                    </div>
-
-                    <div class="flex flex-col p-2  w-52 card border-black border-2">
-                        <div class="flex justify-center">
-                            <img src="../img/bootstrap.png" class="w-40 rounded-2xl" alt="">
-                        </div>
-                        <div class="flex justify-center">Godot</div>
-                        <div>
-                            <p class="text-center flex flex-wrap p-2">Lorem ipsum, dolor sit amet consectetur adipisicing
-                                elit.
-                            </p>
-                        </div>
-
-                    </div>
-
-                    <div class="flex flex-col p-2  w-52 card border-black border-2">
-                        <div class="flex justify-center">
-                            <img src="../img/blender.png" class="w-40 rounded-2xl" alt="">
-                        </div>
-                        <div class="flex justify-center">Godot</div>
-                        <div>
-                            <p class="text-center flex flex-wrap p-2">Lorem ipsum, dolor sit amet consectetur adipisicing
-                                elit.
-                            </p>
-                        </div>
-
-                    </div>
+                    <Card picsrc="../img/sf.png"/>
+                    <Card picsrc="../img/bootstrap.png"/>
 
 
                 </div>
             </div>
+
+            
 
         </div>
 
     </section>
     <section>
         <!-- footer -->
+        <Footer />
 
     </section>
 </main>
