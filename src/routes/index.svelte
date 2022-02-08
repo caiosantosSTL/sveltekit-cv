@@ -1,5 +1,6 @@
 <script>
     import Navbar from '../navbar.svelte'
+    
 </script>
 
 <main>
@@ -26,18 +27,18 @@
                         </div>
                         <div class="mb-2 flex flex-row flex-wrap  gap-x-3 justify-center text-white">
                             <div>
-                                <a href="">
+                                <a href="/">
                                     <i class="bi bi-linkedin hover:text-yellow-200"></i>
                                 </a>
                             </div>
                             <div>
-                                <a href="">
+                                <a href="/">
                                     <i class="bi bi-github hover:text-yellow-200"></i>
                                 </a>
                             </div>
 
                             <div>
-                                <a href="">
+                                <a href="/">
                                     <i
                                         class="bi bi-envelope-fill mr-2 hover:text-yellow-200">caiosantos_xds@hotmail.com</i>
                                 </a>
