@@ -45,6 +45,7 @@
                             </div>
                             <div>
                                 <i class="bi bi-telephone-fill hover:text-yellow-200">+ 52 442 109 7022</i>
+
                             </div>
 
                         </div>
