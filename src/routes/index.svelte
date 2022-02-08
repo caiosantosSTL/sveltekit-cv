@@ -1,6 +1,6 @@
 <script>
-    import Navbar from '../navbar.svelte'
-    import Footer from '../footer.svelte'
+    import Navbar from '../component/navbar.svelte'
+    import Footer from '../component/footer.svelte'
     //comp
     import Card from '../component/mycard.svelte'
     import Popover from '../component/dropdown.svelte'
@@ -25,7 +25,7 @@
                 <div class="p-10 bg-black flex justify-center flex-wrap rounded-3xl">
                     <div class="flex flex-col ">
                         <div class="flex justify-center">
-                            <img src="../img/piccaio2.jpeg" class="rounded-full scale-75 object-contain w-40" alt="">
+                            <img src="../img/piccaio3.jpeg" class="rounded-full scale-75 object-contain w-40" alt="">
                         </div>
 
                         <h1 class="text-4xl flex justify-center text-white text-center">Caio Santos da Silva</h1>
@@ -121,7 +121,6 @@
                                 </div>
 
                                 <div class="collapse-content">
-                                    <p>dasjdkl</p>
                                     <p>Collapse content reveals with focus. If you add a checkbox, you can control it
                                         using checkbox instead of focus. Or you can force-open/force-close using. Lorem
                                         ipsum dolor sit amet consectetur, adipisicing elit. Expedita officia itaque ut
@@ -163,13 +162,33 @@
                         <Popover title="Node js">
                             <Card picsrc="../img/node.png" title="Node js" />
                         </Popover>
+
+                        <Popover title="React Js">
+                            <Card picsrc="../img/react.png" title="React Js" />
+                        </Popover>
+
+                        <Popover title="Vue Js">
+                            <Card picsrc="../img/vue.png" title="Vue Js" />
+                        </Popover>
+
+                        <Popover title="Svelte">
+                            <Card picsrc="../img/svelte.png" title="Svelte" />
+                        </Popover>
+
+                        <Popover title="Tailwind">
+                            <Card picsrc="../img/tailwind.png" title="Tailwind" />
+                        </Popover>
+
+                        <Popover title="Bootstrap">
+                            <Card picsrc="../img/bootstrap.png" title="Bootstrap" />
+                        </Popover>
     
     
                     </div>
                 </div>
                 
                 <div>
-                    <p class="text-2xl flex justify-center mb-4">Skills - Game development</p>
+                    <p class="text-2xl flex justify-center mb-4">Skills - 3D development</p>
                     <div class="flex justify-start flex-wrap gap-2">
     
                         <Popover title="Blender">
