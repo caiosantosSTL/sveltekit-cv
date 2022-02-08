@@ -1,0 +1,42 @@
+tailwind
+
+/// terminal
+    npm install -D tailwindcss postcss autoprefixer
+    npx tailwindcss init tailwind.config.cjs -p
+    mv postcss.config.js postcss.config.cjs
+
+/// tailwind.config.cjs
+    module.exports = {
+    content: ['./src/**/*.{html,js,svelte,ts}'],
+    theme: {
+        extend: {}
+    },
+    plugins: []
+    };
+
+/// create at /src/app.css
+
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+
+/// create at ./src/routes/__layout.svelte
+
+    <script>
+    import "../app.css";
+    </script>
+
+    <slot />
+
+/// install daisyUI
+
+    npm i daisyui
+
+// tailwind.config.js
+    module.exports = {
+
+        plugins: [
+        require('daisyui'),
+        ],
+
+    }
