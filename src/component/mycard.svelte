@@ -1,8 +1,8 @@
 
 <script>
     export let picsrc = '../img/blender.png'
-    export const text = 'blablabla'
-    export const title = 'my title'
+    export let text = 'blablabla'
+    export let title = 'my title'
 </script>
 
 <main>

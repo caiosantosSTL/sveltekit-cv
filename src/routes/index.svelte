@@ -3,14 +3,18 @@
     import Footer from '../footer.svelte'
     //comp
     import Card from '../component/mycard.svelte'
-    
+    import Popover from '../component/dropdown.svelte'
+
 </script>
 
 <main>
 
-    <section>
+    <section class="sticky top-0 z-50 ">
         <!--navbar-->
-        <Navbar/>
+
+        <Navbar />
+
+
 
     </section>
     <section>
@@ -136,17 +140,67 @@
 
             <!-- part 5-->
             <div class="grid grid-cols-1 gap-2 my-4">
-                <p class="text-2xl flex justify-center mb-4">Skills</p>
-                <div class="flex justify-around flex-wrap gap-2">
+                <div>
+                    <p class="text-2xl flex justify-center mb-4">Skills - Web development</p>
+                    <div class="flex justify-start flex-wrap gap-2">
+    
+                        <Popover title="Symfony">
+                            <Card picsrc="../img/sf.png" title="Symfony" />
+                        </Popover>
 
-                    <Card picsrc="../img/sf.png"/>
-                    <Card picsrc="../img/bootstrap.png"/>
+                        <Popover title="Django">
+                            <Card picsrc="../img/django.png" title="Django" />
+                        </Popover>
 
+                        <Popover title="Flask">
+                            <Card picsrc="../img/flask.png" title="Flask" />
+                        </Popover>
 
+                        <Popover title="Laravel">
+                            <Card picsrc="../img/laravel.png" title="Laravel" />
+                        </Popover>
+
+                        <Popover title="Node js">
+                            <Card picsrc="../img/node.png" title="Node js" />
+                        </Popover>
+    
+    
+                    </div>
                 </div>
+                
+                <div>
+                    <p class="text-2xl flex justify-center mb-4">Skills - Game development</p>
+                    <div class="flex justify-start flex-wrap gap-2">
+    
+                        <Popover title="Blender">
+                            <Card picsrc="../img/blender.png" title="Blender" />
+                        </Popover>
+
+                        <Popover title="Godot">
+                            <Card picsrc="../img/godot.png" title="Godot" />
+                        </Popover>
+
+                        <Popover title="Unity">
+                            <Card picsrc="../img/unity.png" title="Unity" />
+                        </Popover>
+    
+    
+                    </div>
+                </div>
+                <div>
+                    <p class="text-2xl flex justify-center mb-4">Skills - Music composition</p>
+                    <div class="flex justify-start flex-wrap gap-2">
+    
+                        <Popover title="LMMS">
+                            <Card picsrc="../img/lmms.png" title="LMMS" />
+                        </Popover>
+    
+                    </div>
+                </div>
+
             </div>
 
-            
+
 
         </div>
 
