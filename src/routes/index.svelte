@@ -68,7 +68,7 @@
                     <div class="flex flex-col p-2">
 
                         <p class="text-2xl flex justify-center">Profile</p>
-
+                        
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem fuga excepturi vel
                             reprehenderit inventore magni aliquid nemo laboriosam provident fugit.Lorem ipsum dolor sit
                             amet, consectetur adipisicing elit. Dolorem fuga excepturi vel
@@ -104,7 +104,9 @@
                                 <div class="collapse-title text-xl font-medium text-center">
                                     Company A
                                 </div>
+                                
                                 <div class="collapse-content">
+                                    <p class="italic flex justify-center">01/2020 * 01/2022</p>
                                     <p>Collapse content reveals with focus. If you add a checkbox, you can control it
                                         using checkbox instead of focus. Or you can force-open/force-close using. Lorem
                                         ipsum dolor sit amet consectetur, adipisicing elit. Expedita officia itaque ut
@@ -122,6 +124,7 @@
                                 </div>
 
                                 <div class="collapse-content">
+                                    <p class="italic flex justify-center">01/2020 * 01/2022</p>
                                     <p>Collapse content reveals with focus. If you add a checkbox, you can control it
                                         using checkbox instead of focus. Or you can force-open/force-close using. Lorem
                                         ipsum dolor sit amet consectetur, adipisicing elit. Expedita officia itaque ut
