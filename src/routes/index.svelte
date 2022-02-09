@@ -51,8 +51,9 @@
                                 </a>
                             </div>
                             <div>
-                                <i class="bi bi-telephone-fill hover:text-yellow-200">+ 52 442 109 7022</i>
-
+                                <a href="tel:+524421097022">
+                                    <i class="bi bi-telephone-fill hover:text-yellow-200">+ 52 442 109 7022</i>
+                                </a>
                             </div>
 
                         </div>
