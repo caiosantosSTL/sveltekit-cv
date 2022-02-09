@@ -24,8 +24,8 @@
             <div class="grid grid-cols-1  gap-2 my-2">
                 <div class="p-10 bg-black flex justify-center flex-wrap rounded-3xl">
                     <div class="flex flex-col ">
-                        <div class="flex justify-center">
-                            <img src="../img/piccaio3.jpeg" class="rounded-full scale-75 object-contain w-40" alt="">
+                        <div class="flex justify-center transition ease-in-out delay-250 hover:-translate-y-2">
+                            <img src="../img/piccaio3.jpeg" class="rounded-full scale-75 object-contain w-40 " alt="">
                         </div>
 
                         <h1 class="text-4xl flex justify-center text-white text-center">Caio Santos da Silva</h1>
@@ -45,7 +45,7 @@
                             </div>
 
                             <div>
-                                <a href="/">
+                                <a href="mailto:caiosantos_xds@hotmail.com">
                                     <i
                                         class="bi bi-envelope-fill mr-2 hover:text-yellow-200">caiosantos_xds@hotmail.com</i>
                                 </a>
@@ -150,7 +150,7 @@
                         <Popover title="Symfony">
                             <Card picsrc="../img/sf.png" title="Symfony" />
                         </Popover>
-
+                        
                         <Popover title="Django">
                             <Card picsrc="../img/django.png" title="Django" />
                         </Popover>
