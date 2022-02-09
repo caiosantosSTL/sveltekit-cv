@@ -228,9 +228,9 @@
         </div>
 
     </section>
-    <section>
+    <footer class="bg-black h-28">
         <!-- footer -->
         <Footer />
 
-    </section>
+    </footer>
 </main>
