@@ -7,17 +7,17 @@
         
         <ul class="flex flex-wrap items-center mt-3 sm:mt-0">
             <li>
-                <a href="#" class="mr-4 text-sm text-gray-500 hover:underline md:mr-6 dark:text-gray-400">About</a>
+                <a href="#home" class="mr-4 text-sm text-gray-500 hover:underline md:mr-6 dark:text-gray-400">Home</a>
             </li>
             <li>
-                <a href="#" class="mr-4 text-sm text-gray-500 hover:underline md:mr-6 dark:text-gray-400">Privacy
-                    Policy</a>
+                <a href="#profile-edu" class="mr-4 text-sm text-gray-500 hover:underline md:mr-6 dark:text-gray-400">Profile and Education
+                    </a>
             </li>
             <li>
-                <a href="#" class="mr-4 text-sm text-gray-500 hover:underline md:mr-6 dark:text-gray-400">Licensing</a>
+                <a href="#employment" class="mr-4 text-sm text-gray-500 hover:underline md:mr-6 dark:text-gray-400">Employment History</a>
             </li>
             <li>
-                <a href="#" class="text-sm text-gray-500 hover:underline dark:text-gray-400">Contact</a>
+                <a href="#skills" class="text-sm text-gray-500 hover:underline dark:text-gray-400">Skills</a>
             </li>
         </ul>
     </footer>

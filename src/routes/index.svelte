@@ -17,6 +17,10 @@
 
 
     </section>
+
+    <div class="h-20" id="home"></div>
+    <!--space-->
+
     <section>
         <div class="container mx-auto">
 
@@ -34,12 +38,12 @@
                         </div>
                         <div class="mb-2 flex flex-row flex-wrap  gap-x-3 justify-center text-white">
                             <div>
-                                <a href="/">
+                                <a href="https://www.linkedin.com/in/caio-santos-b02524180/?locale=es_ES" target="_blank">
                                     <i class="bi bi-linkedin hover:text-yellow-200"></i>
                                 </a>
                             </div>
                             <div>
-                                <a href="/">
+                                <a href="https://github.com/caiosantosSTL" target="_blank">
                                     <i class="bi bi-github hover:text-yellow-200"></i>
                                 </a>
                             </div>
@@ -62,17 +66,18 @@
                 </div>
             </div>
 
+            <div class="h-20" id="profile-edu"></div>
+            <!--space-->
+
             <!--part 2-->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-2 my-4">
                 <div class="flex justify-center">
                     <div class="flex flex-col p-2">
 
                         <p class="text-2xl flex justify-center">Profile</p>
-                        
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem fuga excepturi vel
-                            reprehenderit inventore magni aliquid nemo laboriosam provident fugit.Lorem ipsum dolor sit
-                            amet, consectetur adipisicing elit. Dolorem fuga excepturi vel
-                            reprehenderit inventore magni aliquid nemo laboriosam provident fugit.</p>
+
+                        <p>I'm a web developer, front-end using Vue.js and React.js and back-end using MySQL, SQLite and
+                            API. I also like to develop in game engine like Unity and Godot.</p>
 
                     </div>
 
@@ -80,15 +85,19 @@
                 <div class="flex justify-center">
                     <div class="flex flex-col p-2">
                         <p class="text-2xl flex justify-center">Education</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem fuga excepturi vel
-                            reprehenderit inventore magni aliquid nemo laboriosam provident fugit.Lorem ipsum dolor sit
-                            amet, consectetur adipisicing elit. Dolorem fuga excepturi vel
-                            reprehenderit inventore magni aliquid nemo laboriosam provident fugit.</p>
+                        <ul>
+                            <li><span class="font-bold">Institution:</span> UVM - Universidad del Valle de México</li>
+                            <li><span class="font-bold">Course:</span> Computer systems engineering</li>
+                            <li><span class="font-bold">Conclusion:</span> 2020</li>
+                        </ul>
                     </div>
 
                 </div>
 
             </div>
+
+            <div class="h-20" id="employment"></div>
+            <!--space-->
 
             <!-- part 3-->
             <div class="grid grid-cols-1 gap-2 my-4">
@@ -102,17 +111,14 @@
                             <div class="collapse  border rounded-box border-base-300 collapse-arrow">
                                 <input type="checkbox">
                                 <div class="collapse-title text-xl font-medium text-center">
-                                    Company A
+                                    Unidad de investigación de Neurodesarrollo UNAM
                                 </div>
-                                
-                                <div class="collapse-content">
-                                    <p class="italic flex justify-center">01/2020 * 01/2022</p>
-                                    <p>Collapse content reveals with focus. If you add a checkbox, you can control it
-                                        using checkbox instead of focus. Or you can force-open/force-close using. Lorem
-                                        ipsum dolor sit amet consectetur, adipisicing elit. Expedita officia itaque ut
-                                        magnam provident facilis illo tenetur, harum id culpa.
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non officiis soluta
-                                        enim a consectetur nisi harum distinctio velit earum quaerat!
+
+                                <div class="collapse-content space-y-2">
+                                    <p class="italic flex justify-center">09/2019 * 03/2020</p>
+                                    <p class="text-center"><span class="font-bold">Responsibilities:</span> Social
+                                        service: Web applications, Database administration,
+                                        Unity3D application
                                     </p>
                                 </div>
                             </div>
@@ -120,17 +126,14 @@
                             <div class="collapse border rounded-box border-base-300 collapse-arrow">
                                 <input type="checkbox">
                                 <div class="collapse-title text-xl font-medium text-center">
-                                    Company B
+                                    Cerocatorce The Rewards Company
                                 </div>
 
-                                <div class="collapse-content">
-                                    <p class="italic flex justify-center">01/2020 * 01/2022</p>
-                                    <p>Collapse content reveals with focus. If you add a checkbox, you can control it
-                                        using checkbox instead of focus. Or you can force-open/force-close using. Lorem
-                                        ipsum dolor sit amet consectetur, adipisicing elit. Expedita officia itaque ut
-                                        magnam provident facilis illo tenetur, harum id culpa.
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non officiis soluta
-                                        enim a consectetur nisi harum distinctio velit earum quaerat!
+                                <div class="collapse-content space-y-2">
+                                    <p class="italic flex justify-center">08/2021 * 02/2022</p>
+                                    <p class="text-center"><span class="font-bold">Responsibilities:</span> I worked on
+                                        front-end and back-end project development,
+                                        landing page creation, project maintenance using the symfony framework.
                                     </p>
                                 </div>
                             </div>
@@ -141,16 +144,19 @@
                 </div>
             </div>
 
+            <div class="h-20" id="skills"></div>
+            <!--space-->
+
             <!-- part 5-->
             <div class="grid grid-cols-1 gap-2 my-4">
                 <div>
                     <p class="text-2xl flex justify-center mb-4">Skills - Web development</p>
                     <div class="flex justify-start flex-wrap gap-2">
-    
+
                         <Popover title="Symfony">
                             <Card picsrc="../img/sf.png" title="Symfony" />
                         </Popover>
-                        
+
                         <Popover title="Django">
                             <Card picsrc="../img/django.png" title="Django" />
                         </Popover>
@@ -186,15 +192,15 @@
                         <Popover title="Bootstrap">
                             <Card picsrc="../img/bootstrap.png" title="Bootstrap" />
                         </Popover>
-    
-    
+
+
                     </div>
                 </div>
-                
+
                 <div>
                     <p class="text-2xl flex justify-center mb-4">Skills - 3D development</p>
                     <div class="flex justify-start flex-wrap gap-2">
-    
+
                         <Popover title="Blender">
                             <Card picsrc="../img/blender.png" title="Blender" />
                         </Popover>
@@ -206,18 +212,18 @@
                         <Popover title="Unity">
                             <Card picsrc="../img/unity.png" title="Unity" />
                         </Popover>
-    
-    
+
+
                     </div>
                 </div>
                 <div>
                     <p class="text-2xl flex justify-center mb-4">Skills - Music composition</p>
                     <div class="flex justify-start flex-wrap gap-2">
-    
+
                         <Popover title="LMMS">
                             <Card picsrc="../img/lmms.png" title="LMMS" />
                         </Popover>
-    
+
                     </div>
                 </div>
 
@@ -228,6 +234,8 @@
         </div>
 
     </section>
+    <div class="h-20"></div>
+    <!--space-->
     <footer class="bg-black h-28">
         <!-- footer -->
         <Footer />
