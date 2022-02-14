@@ -3,7 +3,7 @@
     <nav class="bg-black border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-800">
         <div class="container flex flex-wrap justify-between items-center mx-auto">
             <a href="/" class="flex">
-                <i class="bi bi-person-bounding-box text-2xl"></i>
+                <i class="bi bi-person-bounding-box text-2xl text-white"></i>
                 <span class="hidden self-center text-lg font-semibold whitespace-nowrap dark:text-white">FlowBite</span>
             </a>
             <!-- button open and close on mobile size div-->
