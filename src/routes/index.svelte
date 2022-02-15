@@ -174,7 +174,7 @@
                         </Popover>
 
                         <Popover title="React Js">
-                            <Card picsrc="../img/react.png" title="React Js" />
+                            <Card picsrc="../img/react.png" title="React Js" link="https://next-tailwind-pokemon.vercel.app/" />
                         </Popover>
 
                         <Popover title="Vue Js">
