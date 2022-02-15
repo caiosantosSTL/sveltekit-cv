@@ -2,6 +2,7 @@
 <script>
     export let picsrc = '../img/blender.png'
     export let text = 'Lorem ipsum dolor sit amet.'
+    export let link = '#'
     export let title = 'my title'
 </script>
 
@@ -12,8 +13,10 @@
         </div>
         <div class="flex justify-center">{title}</div>
         <div>
-            <p class="text-center flex flex-wrap p-2">{text}
+            <p class="text-center flex flex-wrap p-2">{text} 
+                
             </p>
+            <a href="{link}" class="hover:text-red-500">Examples here</a>
         </div>
 
     </div>

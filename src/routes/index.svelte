@@ -202,15 +202,15 @@
                     <div class="flex justify-start flex-wrap gap-2">
 
                         <Popover title="Blender">
-                            <Card picsrc="../img/blender.png" title="Blender" />
+                            <Card picsrc="../img/blender.png" title="Blender" link="https://www.deviantart.com/redenalux" />
                         </Popover>
 
                         <Popover title="Godot">
-                            <Card picsrc="../img/godot.png" title="Godot" />
+                            <Card picsrc="../img/godot.png" title="Godot" link="https://vimeo.com/user130645208" />
                         </Popover>
 
                         <Popover title="Unity">
-                            <Card picsrc="../img/unity.png" title="Unity" />
+                            <Card picsrc="../img/unity.png" title="Unity" link="https://vimeo.com/user130645208" />
                         </Popover>
 
 
@@ -221,7 +221,7 @@
                     <div class="flex justify-start flex-wrap gap-2">
 
                         <Popover title="LMMS">
-                            <Card picsrc="../img/lmms.png" title="LMMS" />
+                            <Card picsrc="../img/lmms.png" title="LMMS" link="https://soundcloud.com/caiosds" />
                         </Popover>
 
                     </div>
