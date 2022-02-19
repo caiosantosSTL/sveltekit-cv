@@ -17,7 +17,10 @@
                 <a href="#employment" class="mr-4 text-sm text-gray-500 hover:underline md:mr-6 dark:text-gray-400">Employment History</a>
             </li>
             <li>
-                <a href="#skills" class="text-sm text-gray-500 hover:underline dark:text-gray-400">Skills</a>
+                <a href="#skills" class="mr-4 text-sm  text-gray-500 hover:underline dark:text-gray-400">Skills</a>
+            </li>
+            <li>
+                <a href="https://docusaurus-notes.vercel.app/" class="mr-4 text-sm text-gray-500 hover:underline dark:text-gray-400">My notes</a>
             </li>
         </ul>
     </footer>
