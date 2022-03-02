@@ -186,7 +186,7 @@
                         </Popover>
 
                         <Popover title="Tailwind">
-                            <Card picsrc="../img/tailwind.png" title="Tailwind" />
+                            <Card picsrc="../img/tailwind.png" title="Tailwind" link="https://codesandbox.io/s/brave-cannon-8jkdk0?file=/index.html" />
                         </Popover>
 
                         <Popover title="Bootstrap">
