@@ -16,7 +16,11 @@
             <p class="text-center flex flex-wrap p-2">{text} 
                 
             </p>
-            <a href="{link}" class="hover:text-red-500">Examples here</a>
+            {#if link === "#"}
+                <p class="hover:text-red-500">Examples soon</p>
+            {:else}
+                <a href="{link}" class="hover:text-blue-500">Examples here</a>
+            {/if}
         </div>
 
     </div>
