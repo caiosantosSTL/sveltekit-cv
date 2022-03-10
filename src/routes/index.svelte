@@ -49,14 +49,23 @@
                             </div>
 
                             <div>
-                                <a href="mailto:caiosantos_xds@hotmail.com">
+                                <a class="flex flex-row hover:text-yellow-200" href="mailto:caiosantos_xds@hotmail.com">
                                     <i
-                                        class="bi bi-envelope-fill mr-2 hover:text-yellow-200">caiosantos_xds@hotmail.com</i>
+                                        class="bi bi-envelope-fill mr-2"></i>
+                                    <p>caiosantos_xds@hotmail.com</p>
                                 </a>
                             </div>
                             <div>
-                                <a href="tel:+524421097022">
-                                    <i class="bi bi-telephone-fill hover:text-yellow-200">+ 52 442 109 7022</i>
+                                <a class="flex flex-row hover:text-yellow-200" href="tel:+524421097022">
+                                    <i class="bi bi-telephone-fill"></i>
+                                    <p>+ 52 442 109 7022</p>
+                                </a>
+                            </div>
+
+                            <div>
+                                <a class="flex flex-row hover:text-yellow-200" href="https://docusaurus-notes.vercel.app/">
+                                    <i class="bi bi-box-arrow-in-up-right mr-2"></i> 
+                                    <p>My notes</p>
                                 </a>
                             </div>
 
@@ -228,6 +237,7 @@
                 </div>
 
             </div>
+
 
 
 
