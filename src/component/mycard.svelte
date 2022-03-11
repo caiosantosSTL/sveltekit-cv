@@ -1,7 +1,7 @@
 
 <script>
     export let picsrc = '../img/blender.png'
-    export let text = 'Lorem ipsum dolor sit amet.'
+    export let text = ''
     export let link = '#'
     export let title = 'my title'
 </script>
