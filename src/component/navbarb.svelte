@@ -1,3 +1,18 @@
+<script>
+    var clicked = true
+    function closeTab(){
+        if (clicked) {
+            document.querySelector('#mobile-menu').classList.remove('block')
+            document.querySelector('#mobile-menu').classList.add('hidden')
+            clicked = !clicked
+        }else{
+            document.querySelector('#mobile-menu').classList.remove('hidden')
+            document.querySelector('#mobile-menu').classList.add('block')
+            clicked = !clicked
+        }
+    }
+</script>
+
 <main>
 
     <nav class="bg-black border-red-600 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-800">
@@ -28,20 +43,20 @@
                 <!--flex-col // mobile size, flex-row // md size-->
                 <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
                     <li>
-                        <a href="#home"
+                        <a href="#home" on:click={closeTab}
                             class="block py-2 pr-4 pl-3 text-gray-50 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
                             aria-current="page">Home</a>
                     </li>
                     <li>
-                        <a href="#profile-edu"
+                        <a href="#profile-edu" on:click={closeTab}
                             class="block py-2 pr-4 pl-3 text-gray-50 border-b border-gray-100 hover:bg-gray-800  md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Profile and Education</a>
                     </li>
                     <li>
-                        <a href="#employment"
+                        <a href="#employment" on:click={closeTab}
                             class="block py-2 pr-4 pl-3 text-gray-50 border-b border-gray-100 hover:bg-gray-800  md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Employment History</a>
                     </li>
                     <li>
-                        <a href="#skills"
+                        <a href="#skills" on:click={closeTab}
                             class="block py-2 pr-4 pl-3 text-gray-50 border-b border-gray-100 hover:bg-gray-800 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Skills</a>
                     </li>
                 </ul>
