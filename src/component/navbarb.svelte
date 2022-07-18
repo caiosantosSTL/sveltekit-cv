@@ -42,21 +42,21 @@
             <div class="hidden w-full md:block md:w-auto" id="mobile-menu">
                 <!--flex-col // mobile size, flex-row // md size-->
                 <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
-                    <li>
-                        <a href="#home" on:click={closeTab}
+                    <li on:click={closeTab}>
+                        <a href="#home" 
                             class="block py-2 pr-4 pl-3 text-gray-50 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
                             aria-current="page">Home</a>
                     </li>
-                    <li>
-                        <a href="#profile-edu" on:click={closeTab}
+                    <li on:click={closeTab}>
+                        <a href="#profile-edu" 
                             class="block py-2 pr-4 pl-3 text-gray-50 border-b border-gray-100 hover:bg-gray-800  md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Profile and Education</a>
                     </li>
-                    <li>
-                        <a href="#employment" on:click={closeTab}
+                    <li on:click={closeTab}>
+                        <a href="#employment"
                             class="block py-2 pr-4 pl-3 text-gray-50 border-b border-gray-100 hover:bg-gray-800  md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Employment History</a>
                     </li>
-                    <li>
-                        <a href="#skills" on:click={closeTab}
+                    <li on:click={closeTab}>
+                        <a href="#skills" 
                             class="block py-2 pr-4 pl-3 text-gray-50 border-b border-gray-100 hover:bg-gray-800 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Skills</a>
                     </li>
                 </ul>
