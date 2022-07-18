@@ -1,5 +1,6 @@
 <script>
     import Navbar from '../component/navbar.svelte'
+    import Navbarb from '../component/navbarb.svelte'
     import Footer from '../component/footer.svelte'
     //comp
     import Card from '../component/mycard.svelte'
@@ -11,9 +12,7 @@
 
     <section class="sticky top-0 z-50 ">
         <!--navbar-->
-
-        <Navbar />
-
+        <Navbarb/>
 
 
     </section>
