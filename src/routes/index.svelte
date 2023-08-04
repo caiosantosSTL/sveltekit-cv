@@ -55,9 +55,9 @@
                                 </a>
                             </div>
                             <div>
-                                <a class="flex flex-row hover:text-yellow-200" href="tel:+524421097022">
+                                <a class="flex flex-row hover:text-yellow-200" href="tel:+5511913364361">
                                     <i class="bi bi-telephone-fill"></i>
-                                    <p>+ 52 442 109 7022</p>
+                                    <p>+ 55 11 91336-4361</p>
                                 </a>
                             </div>
 
@@ -86,6 +86,9 @@
 
                         <p>I'm a web developer, front-end using Vue.js and React.js and back-end using MySQL, SQLite and
                             API. I also like to develop in game engine like Unity and Godot.</p>
+                        <p>
+                            I would like to develop my skills as ui/ux designer JR using Figma, and also technologies like HTML, CSS and javascript. I also have knowledge in front-end development. Thank you for the opportunity.
+                        </p>
 
                     </div>
 
@@ -156,85 +159,106 @@
             <!--space-->
 
             <!-- part 5-->
+            <div class="hidden">
+                <div class="grid grid-cols-1 gap-2 my-4">
+                    <div>
+                        <p class="text-2xl flex justify-center mb-4">Skills - Web development</p>
+                        <div class="flex justify-start flex-wrap gap-2">
+    
+                            <Popover title="Symfony">
+                                <Card picsrc="../img/sf.png" title="Symfony" />
+                            </Popover>
+    
+                            <Popover title="Django">
+                                <Card picsrc="../img/django.png" title="Django" />
+                            </Popover>
+    
+                            <Popover title="Flask">
+                                <Card picsrc="../img/flask.png" title="Flask" />
+                            </Popover>
+    
+                            <Popover title="Laravel">
+                                <Card picsrc="../img/laravel.png" title="Laravel" />
+                            </Popover>
+    
+                            <Popover title="Node js">
+                                <Card picsrc="../img/node.png" title="Node js" />
+                            </Popover>
+    
+                            <Popover title="React Js">
+                                <Card picsrc="../img/react.png" title="React Js" link="https://next-tailwind-pokemon.vercel.app/" />
+                            </Popover>
+    
+                            <Popover title="Vue Js">
+                                <Card picsrc="../img/vue.png" title="Vue Js" />
+                            </Popover>
+    
+                            <Popover title="Svelte">
+                                <Card picsrc="../img/svelte.png" title="Svelte" />
+                            </Popover>
+    
+                            <Popover title="Tailwind">
+                                <Card picsrc="../img/tailwind.png" title="Tailwind" link="https://codesandbox.io/s/brave-cannon-8jkdk0?file=/index.html" />
+                            </Popover>
+    
+                            <Popover title="Bootstrap">
+                                <Card picsrc="../img/bootstrap.png" title="Bootstrap" />
+                            </Popover>
+    
+    
+                        </div>
+                    </div>
+    
+                    <div>
+                        <p class="text-2xl flex justify-center mb-4">Skills - 3D development</p>
+                        <div class="flex justify-start flex-wrap gap-2">
+    
+                            <Popover title="Blender">
+                                <Card picsrc="../img/blender.png" title="Blender" link="https://www.deviantart.com/redenalux" />
+                            </Popover>
+    
+                            <Popover title="Godot">
+                                <Card picsrc="../img/godot.png" title="Godot" link="https://vimeo.com/user130645208" />
+                            </Popover>
+    
+                            <Popover title="Unity">
+                                <Card picsrc="../img/unity.png" title="Unity" link="https://vimeo.com/user130645208" />
+                            </Popover>
+    
+    
+                        </div>
+                    </div>
+                    <div>
+                        <p class="text-2xl flex justify-center mb-4">Skills - Music composition</p>
+                        <div class="flex justify-start flex-wrap gap-2">
+    
+                            <Popover title="LMMS">
+                                <Card picsrc="../img/lmms.png" title="LMMS" link="https://soundcloud.com/caiosds" />
+                            </Popover>
+    
+                        </div>
+                    </div>
+    
+                </div>
+
+            </div>
+
+            <!--projects -->
+
             <div class="grid grid-cols-1 gap-2 my-4">
+                <p class="text-2xl flex justify-center mb-4">Projects</p>
                 <div>
-                    <p class="text-2xl flex justify-center mb-4">Skills - Web development</p>
-                    <div class="flex justify-start flex-wrap gap-2">
+                    <p class="flex justify-center">My projects and skills I will share </p> 
+                    <div class="flex justify-center">
+                        <div class="bg-black hover:bg-slate-900 px-6 py-4 rounded-md">
+                            <a href="https://docusaurus-notes.vercel.app/docs/projects/project-list"> <strong>HERE</strong> </a>
 
-                        <Popover title="Symfony">
-                            <Card picsrc="../img/sf.png" title="Symfony" />
-                        </Popover>
-
-                        <Popover title="Django">
-                            <Card picsrc="../img/django.png" title="Django" />
-                        </Popover>
-
-                        <Popover title="Flask">
-                            <Card picsrc="../img/flask.png" title="Flask" />
-                        </Popover>
-
-                        <Popover title="Laravel">
-                            <Card picsrc="../img/laravel.png" title="Laravel" />
-                        </Popover>
-
-                        <Popover title="Node js">
-                            <Card picsrc="../img/node.png" title="Node js" />
-                        </Popover>
-
-                        <Popover title="React Js">
-                            <Card picsrc="../img/react.png" title="React Js" link="https://next-tailwind-pokemon.vercel.app/" />
-                        </Popover>
-
-                        <Popover title="Vue Js">
-                            <Card picsrc="../img/vue.png" title="Vue Js" />
-                        </Popover>
-
-                        <Popover title="Svelte">
-                            <Card picsrc="../img/svelte.png" title="Svelte" />
-                        </Popover>
-
-                        <Popover title="Tailwind">
-                            <Card picsrc="../img/tailwind.png" title="Tailwind" link="https://codesandbox.io/s/brave-cannon-8jkdk0?file=/index.html" />
-                        </Popover>
-
-                        <Popover title="Bootstrap">
-                            <Card picsrc="../img/bootstrap.png" title="Bootstrap" />
-                        </Popover>
-
-
+                        </div>
                     </div>
+                    <p class="flex justify-center mb-4">In that list
+                        we will see projects made in Html, NodeJs, React and Vue</p>
+
                 </div>
-
-                <div>
-                    <p class="text-2xl flex justify-center mb-4">Skills - 3D development</p>
-                    <div class="flex justify-start flex-wrap gap-2">
-
-                        <Popover title="Blender">
-                            <Card picsrc="../img/blender.png" title="Blender" link="https://www.deviantart.com/redenalux" />
-                        </Popover>
-
-                        <Popover title="Godot">
-                            <Card picsrc="../img/godot.png" title="Godot" link="https://vimeo.com/user130645208" />
-                        </Popover>
-
-                        <Popover title="Unity">
-                            <Card picsrc="../img/unity.png" title="Unity" link="https://vimeo.com/user130645208" />
-                        </Popover>
-
-
-                    </div>
-                </div>
-                <div>
-                    <p class="text-2xl flex justify-center mb-4">Skills - Music composition</p>
-                    <div class="flex justify-start flex-wrap gap-2">
-
-                        <Popover title="LMMS">
-                            <Card picsrc="../img/lmms.png" title="LMMS" link="https://soundcloud.com/caiosds" />
-                        </Popover>
-
-                    </div>
-                </div>
-
             </div>
 
 
